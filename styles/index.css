@@ -400,5 +400,40 @@ nav {
   text-decoration: none;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+}
+
+.footer-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.terms-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-top: 50px;
+}
+
+.terms-container > a {
+  text-decoration: none;
+  color: rgba(220, 220, 220, 0.656);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(220, 220, 220, 0.656);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 130px;
+  padding-top: 20px;
 }
